@@ -13,6 +13,7 @@ const InputBar: React.FC<InputBarProps> = ({ todo, setTodo ,handleAddTodos}) => 
     return <form className="search__form" onSubmit={(e) => {
         handleAddTodos(e);
         InputRef.current?.blur();
+        InputRef.current?.focus();
       }}>
         <input placeholder="Enter your task" 
                className="search__form--input" 

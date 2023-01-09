@@ -10,7 +10,7 @@ interface TodoCardProps{
 const TodoCard: React.FC<TodoCardProps> = ({todoList,setTodoList}) => {
   return todoList && <div className="card__container">
     {todoList.map((todo)=>(
-        <SingleCard key={todo.id} todo={todo.todo} status={todo.isDone}/>
+        <SingleCard key={todo.id} todo={todo} todoList={todoList} setTodoList={setTodoList}/>
     ))}
   </div>
 }

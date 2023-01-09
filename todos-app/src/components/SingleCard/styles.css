@@ -1,0 +1,35 @@
+
+
+.single__card{
+    display: flex;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+    transition: 0.2s;
+}
+
+.single__card--title{
+    flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.single__card--title:focus{
+    outline: none;
+}
+.icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 700px) {
+  
+    .single__card
+    {
+        width: 100%;
+    }
+  }
