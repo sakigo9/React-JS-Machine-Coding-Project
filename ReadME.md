@@ -22,7 +22,7 @@
 
 ## Steps to start the application
 
-   1. Clone the repository - [React JS : Machine Coding Project](https://github.com/sakigo9/Vanilla-JS-Machine-Coding-Round-Classic-Question-Collection)
+   1. Clone the repository - [React JS : Machine Coding Project](https://github.com/sakigo9/React-JS-Machine-Coding-Project.git)
    2. That's it! Anyone can start contributing.(`Follow the guidelines mentioned above.`)
 
 ## 💻 Tech Stack Used:
