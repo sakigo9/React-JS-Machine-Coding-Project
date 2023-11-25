@@ -1,5 +1,7 @@
+html{
+  box-sizing: border-box;
+}
 
-*{
-  box-sizing: content-box;
-  margin: 0;
+*, *::before, *::after{
+  box-sizing: inherit;
 }
