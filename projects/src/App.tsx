@@ -1,11 +1,12 @@
-import Routes from "./Routes"
+import React from 'react';
+import Routes from './Routes';
 
-const App : React.FC= () =>{
+const App: React.FC = () => {
   return (
     <div>
-        <Routes/>
+      <Routes />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

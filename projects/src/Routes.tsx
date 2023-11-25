@@ -1,6 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ToDosApp from "./containers/ToDosApp/ToDosApp";
-import Home from "./containers/Home/Home";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ToDosApp from './containers/ToDosApp/ToDosApp';
+import Home from './containers/Home/Home';
 const ProjectRoutes: React.FC = () => {
   return (
     <Router>

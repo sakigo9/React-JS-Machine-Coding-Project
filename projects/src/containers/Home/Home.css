@@ -1,22 +1,22 @@
-.main_container{
-    background-image: url(../../assets/CoverImg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    opacity: .9;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+.main_container {
+  background-image: url(../../assets/CoverImg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-.navbar{
+.navbar {
   background: rgba(0, 0, 0, 0.1);
-  opacity: .9;
+  opacity: 0.9;
   margin-top: 50px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
-  width: "max-content";
+  width: 'max-content';
   height: 40px;
   display: flex;
   align-items: center;
@@ -24,17 +24,17 @@
   padding: 0px;
 }
 
-.navbar_tab{
+.navbar_tab {
   text-transform: uppercase;
   font-size: 16px;
-  color: #575353 ;
+  color: #575353;
   height: inherit;
   margin: 0px;
   border-radius: 50px;
   padding: 10px 20px;
 }
 
-.task{
+.task {
   height: 300px;
   width: 90%;
 }
