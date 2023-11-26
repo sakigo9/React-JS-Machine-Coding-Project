@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+.theme-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.theme-container-button {
+  border-radius: 12px;
+  padding: 12px;
+  border: none;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.theme-container-card {
+  display: flex;
+  height: 20vh;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.dark {
+  background-color: black;
+  color: #fff;
+}
+
+.light {
+  background-color: aliceblue;
+}
