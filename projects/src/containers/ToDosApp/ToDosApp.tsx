@@ -16,7 +16,7 @@ const ToDosApp: FC = () => {
   console.log(todoList);
   return (
     <div className="App">
-      <span className="heading">Taskify</span>
+      <span className="heading">To-Do Tasks 📝</span>
       <InputBar todo={todo} setTodo={setTodo} handleAddTodos={handleAddTodos} />
       <TodoCard todoList={todoList} setTodoList={setTodoList} />
     </div>

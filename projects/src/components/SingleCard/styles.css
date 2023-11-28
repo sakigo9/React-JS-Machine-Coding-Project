@@ -3,7 +3,9 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background-image: url('https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg');
+  background-image: url(../../assets/images/todos.avif);
+  background-repeat: none;
+  background-size: cover;
   transition: 0.2s;
 }
 
