@@ -4,6 +4,7 @@ import ToDosApp from './containers/ToDosApp/ToDosApp';
 import Home from './containers/Home/Home';
 import ThemeSwitch from './containers/projects/ThemeSwitch/ThemeSwitch';
 import ToDos from './containers/projects/ToDosPart2/ToDos';
+import Timer from './containers/projects/Timer/Timer';
 const ProjectRoutes: React.FC = () => {
   return (
     <Router>
@@ -12,6 +13,7 @@ const ProjectRoutes: React.FC = () => {
         <Route path="/toDos" element={<ToDosApp />} />
         <Route path="/theme" element={<ThemeSwitch />} />
         <Route path="/toDos2" element={<ToDos />} />
+        <Route path="/timer" element={<Timer />} />
       </Routes>
     </Router>
   );
