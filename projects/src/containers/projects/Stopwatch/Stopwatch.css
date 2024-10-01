@@ -1,0 +1,35 @@
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+  background-color: #bbe53dba;
+}
+
+.timer {
+  font-size: 40px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 10px;
+}
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: red;
+}
+
+.reset {
+  background-color: blue;
+}
