@@ -4,11 +4,11 @@
 
 # Motivation
 
-    * The Core idea is to make this a single source repository were we provide question, its multiple solution, the concepts involved for a given problem. It should look like an exciting repo for learning purpose and also for documentation and contributing purposes.
+    The Core idea is to make this a single source repository were we provide question, its multiple solution, the concepts involved for a given problem. It should look like an exciting repo for learning purpose and also for documentation and contributing purposes.
 
 ## Contrubution Guidelines.
 
-    * This Repo is based around React-Typescript-CSS and other concepts around webdev. So any contribution can be as follows:
+     This Repo is based around React-Typescript-CSS and other concepts around webdev. So any contribution can be as follows:
 
         - Raising any code bug.
         - Fixing Bugs.
@@ -24,6 +24,7 @@
 | Project Name | Description                                     |
 | ------------ | ----------------------------------------------- |
 | Timer App    | Build a timer with Start, Stop and Reset Button |
+| Stop Watch   | Create a Stop watch app.                        |
 
 ## Steps to start the application
 
